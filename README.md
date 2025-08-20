@@ -24,6 +24,8 @@ streamlit run app.py
 ```
 
 ## Deploy on Streamlit Cloud
+
+
 1. Create a GitHub repo and add `app.py`, `requirements.txt`, and your CSV (or host it elsewhere).
 2. Go to https://streamlit.io/cloud and link the repo.
 3. Set an environment variable `GEOCYCLE_CSV` if your CSV is stored privately or at a different path.
